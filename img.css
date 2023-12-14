@@ -1,0 +1,38 @@
+div{
+    display:flex;
+    padding: 4%;
+    justify-content: space-between;
+    text-align: center;
+}
+header{
+    text-align: center;
+    background-color: rgb(107, 105, 105);
+    padding: 1%;
+    height: 5dvh;
+}
+nav{
+    height: 2dvh;
+    text-align: center;
+    color: rgb(156, 155, 155);
+    background-color: rgb(37, 37, 37);
+    padding: 1%;
+}
+label{
+    display: block;
+    margin-top: 1%;  
+}
+main{
+    text-align: center;
+    flex-grow: 1;
+    height: min-content;
+}
+body{
+    background-color: whitesmoke;
+}
+footer{
+    background-color: rgb(37, 37, 37);
+    padding: 1%;
+    color: rgb(156, 155, 155);
+    text-align: center;
+    height: 5dvh;
+}
