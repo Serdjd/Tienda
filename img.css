@@ -1,14 +1,11 @@
-div{
-    display:flex;
-    padding: 4%;
-    justify-content: space-between;
-    text-align: center;
-}
 header{
     text-align: center;
     background-color: rgb(107, 105, 105);
     padding: 1%;
     height: 5dvh;
+}
+main{
+    height: 76dvh;
 }
 nav{
     height: 2dvh;
@@ -17,22 +14,33 @@ nav{
     background-color: rgb(37, 37, 37);
     padding: 1%;
 }
-label{
-    display: block;
-    margin-top: 1%;  
-}
-main{
-    text-align: center;
-    flex-grow: 1;
-    height: min-content;
-}
-body{
-    background-color: whitesmoke;
-}
 footer{
     background-color: rgb(37, 37, 37);
     padding: 1%;
     color: rgb(156, 155, 155);
     text-align: center;
     height: 5dvh;
+}
+div{
+    display:flex;
+    justify-content: space-between;
+}
+#text1{
+    margin-left: 16%;
+}
+#text2{
+    margin-right: 16%;
+}
+label{
+    margin-top: 1%;
+    align-items: center;
+}
+video{
+    margin-left: 5%;
+}
+img{
+    margin-right: 5%;
+}
+body{
+    background-color: whitesmoke;
 }

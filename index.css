@@ -1,0 +1,16 @@
+header{
+    text-align: center;
+    background-color: rgb(107, 105, 105);
+    padding: 1%;
+    height: 5dvh;
+}
+footer{
+    background-color: rgb(37, 37, 37);
+    padding: 1%;
+    color: rgb(156, 155, 155);
+    text-align: center;
+    height: 5dvh;
+}
+main{
+    height: 76dvh;
+}
